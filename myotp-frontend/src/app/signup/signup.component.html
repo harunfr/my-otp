@@ -1,0 +1,16 @@
+<h2>Sign Up</h2>
+<form (ngSubmit)="onSignup()">
+  <label>Username:</label>
+  <input type="text" [(ngModel)]="username" name="username" required />
+
+  <label>Password:</label>
+  <input type="password" [(ngModel)]="password" name="password" required />
+
+  <label>Phone:</label>
+  <input type="text" [(ngModel)]="phone" name="phone" required />
+
+  <label>Email:</label>
+  <input type="email" [(ngModel)]="email" name="email" required />
+
+  <button type="submit">Sign Up</button>
+</form>
